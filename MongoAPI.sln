@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoAPI", "MongoAPI\MongoAPI.csproj", "{8227A9EE-D1BD-42D1-875E-D0DF8D6D0A0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cyclist.DataModel", "Cyclist.DataModel\Cyclist.DataModel.csproj", "{4695D5F7-4E44-4B1D-8E27-CDC1ACB18689}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cyclist.Services", "Cyclist.Services\Cyclist.Services.csproj", "{F58A9201-423B-41B6-8934-22F5794B9C6E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8227A9EE-D1BD-42D1-875E-D0DF8D6D0A0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8227A9EE-D1BD-42D1-875E-D0DF8D6D0A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8227A9EE-D1BD-42D1-875E-D0DF8D6D0A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8227A9EE-D1BD-42D1-875E-D0DF8D6D0A0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4695D5F7-4E44-4B1D-8E27-CDC1ACB18689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4695D5F7-4E44-4B1D-8E27-CDC1ACB18689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4695D5F7-4E44-4B1D-8E27-CDC1ACB18689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4695D5F7-4E44-4B1D-8E27-CDC1ACB18689}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F58A9201-423B-41B6-8934-22F5794B9C6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F58A9201-423B-41B6-8934-22F5794B9C6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F58A9201-423B-41B6-8934-22F5794B9C6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F58A9201-423B-41B6-8934-22F5794B9C6E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="GenericRepository\" />
+    <Folder Include="UnitOfWork\" />
+    <Folder Include="GenericRepository\Repositories\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.Abstractions" Version="2.0.2.37" />
+    <PackageReference Include="MongoDB.Driver" Version="2.3.0" />
+    <PackageReference Include="mongocsharpdriver" Version="2.3.0" />
+  </ItemGroup>
+</Project>
