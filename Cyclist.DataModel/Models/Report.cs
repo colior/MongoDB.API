@@ -1,9 +1,10 @@
 ﻿using System;
+using System.Runtime.Serialization;
 using MongoDB.Bson.Serialization.Attributes;
 
 namespace Cyclist.DataModel.Models
 {
-    [Serializable]
+    [DataContract]
     public class Report
     {
         public enum ReportDescription{
@@ -14,11 +15,16 @@ namespace Cyclist.DataModel.Models
         };
 
         [BsonElement("_id")]
+        [DataMember(Name = "ReportId")]
         public String ReportId { get; set; }
         [BsonElement("userId")]
+        [DataMember(Name = "UserID")]
         public String UserID { get; set; }
-        public String Description { get; set; }
+        [DataMember(Name = "Description")]
+        public ReportDescription Description { get; set; }
+        [DataMember(Name = "Time")]
         public DateTime Time { get; set; }
+        [DataMember(Name = "IsActive")]
         public bool IsActive { get; set; }
     }
 }
